@@ -1,0 +1,26 @@
+.section {
+  padding: 40px 0;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.section--aboutus {
+  border-bottom: 2px solid #f1f1f1;
+
+  p {
+    font-size: 18px;
+  }
+}
+
+.section--titleSection {
+  background: $primaryColor;
+  padding: 80px 0;
+  h2 {
+    color: white;
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,37 @@
+header {
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+	padding: 30px 0px;
+	background: white;
+	border-bottom: 2px solid #e1e1e1;
+
+	.container {
+		// border-radius: 4px;
+		// box-shadow: 0 4px 2px #e1e1e1;
+	}
+}
+
+ul.menu  {
+	margin: 0;
+	padding: 0;
+	li {
+		display: inline-block;
+		a {
+			color: #333;
+			padding: 10px 20px;
+
+			&:hover {
+				color: lighten(#30BFBD, 15%);
+			}
+		}
+	}
+}
+
+.navTitle {
+	font-weight: 700;
+	font-size: 16px;
+	text-transform: uppercase;
+
+}
