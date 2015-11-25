@@ -31,6 +31,15 @@ img {
 
 body {
 	color: #333;
+	font-family: 'Lato', sans-serif;
+}
+
+p, ul, li, a {
+	font-weight: 200;
+}
+
+span {
+	font-weight: 400;
 }
 
 .container {
@@ -46,4 +55,69 @@ body {
 
 .full {
 	width: 100%;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+// Download Buttons
+
+.download-button {
+	text-align: center;
+}
+
+.download {
+	background: #30BFBD;
+	padding: 20px;
+	border: 1px #30BFBD solid;
+	display: inline-block;
+	margin: 30px;
+}
+
+.download-button a {
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+	text-transform: uppercase;
+}
+
+.download-button a:hover {
+	background: none;
+	color: #30BFBD;
+}
+//Available Dogs
+span {
+	color: #30BFBD;
+	text-transform: uppercase;
+}
+img.pup-image {
+	width: 100%;
+	border: 1px #30BFBD solid;
+}
+
+.pup-profiles {
+	display: flex;
+	flex-wrap: wrap;
+}
+.pup-profiles p {
+	width: 100%;
+    font-size: 15px;
+}
+
+.pup-profile-content{
+	border: 1px solid black;
+	padding: 15px;
+	width: 40%;
+	margin: 20px;
+}
+
+//Volunteer
+
+.volunteer-content {
+	display: block;
+}
+
+.volunteer-content p {
+	text-align: center;
 }

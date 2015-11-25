@@ -8,7 +8,8 @@
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
 	<link href='https://fonts.googleapis.com/css?family=Varela+Round|Open+Sans:400,300,300italic' rel='stylesheet' type='text/css'>
-
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+ 
   <?php // Load our CSS ?>
   <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 

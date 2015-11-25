@@ -7,6 +7,7 @@ header {
 	background: white;
 	border-bottom: 2px solid #e1e1e1;
 
+
 	.container {
 		// border-radius: 4px;
 		// box-shadow: 0 4px 2px #e1e1e1;
@@ -21,6 +22,7 @@ ul.menu  {
 		a {
 			color: #333;
 			padding: 10px 20px;
+			text-transform: uppercase;
 
 			&:hover {
 				color: lighten(#30BFBD, 15%);
@@ -31,7 +33,9 @@ ul.menu  {
 
 .navTitle {
 	font-weight: 700;
-	font-size: 16px;
+	font-size: 30px;
 	text-transform: uppercase;
-
 }
+
+
+
